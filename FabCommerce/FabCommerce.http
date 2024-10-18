@@ -1,0 +1,6 @@
+@FabCommerce_HostAddress = http://localhost:5259
+
+GET {{FabCommerce_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
