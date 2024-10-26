@@ -112,7 +112,7 @@ namespace FabCommerce.Controllers
 		}
 
 		[Authorize]
-		[HttpGet("imagemperfil")]
+		[HttpGet("[action]")] // Aqui dentro das aspas estava imagemperfil
 		public async Task<IActionResult> ImagemPerfilUsuario()
 		{
 			//verifica se o usuário esta autenticado
